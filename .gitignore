@@ -1,0 +1,15 @@
+# Build outputs
+/dist/
+/target/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Trunk
+.trunk/
