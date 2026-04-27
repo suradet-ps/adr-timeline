@@ -31,7 +31,7 @@ jobs:
         run: cargo install --locked wasm-bindgen-cli || true
 
       - name: Build with trunk
-        run: trunk build --release --public-url / || exit 0
+        run: trunk build --release --public-url /adr-timeline/
 
       - name: Show dist contents
         run: ls -la dist || true
